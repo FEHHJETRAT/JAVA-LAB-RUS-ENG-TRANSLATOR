@@ -2,14 +2,14 @@ package com.company;
 
 public class Menu {
     public void show() {
-        System.out.println("\n\t\t MENU");
-        System.out.println("Enter: ");
-        System.out.println("1 : Add word to dictionary");
-        System.out.println("2 : Translate from English to Russia");
-        System.out.println("3 : Translate from Russia to English");
-        System.out.println("4 : Save dictionary");
-        System.out.println("5 : Load dictionary");
-        System.out.println("6 : Show dictionary");
-        System.out.println("0 : Exit");
+        System.out.println("\n\t\t Меню");
+        System.out.println("ВВод: ");
+        System.out.println("1 : Добавить слово в базу");
+        System.out.println("2 : ENG - RUS");
+        System.out.println("3 : RUS - ENG");
+        System.out.println("4 : Сохранить базу");
+        System.out.println("5 : Загрузить базу");
+        System.out.println("6 : Показать базу");
+        System.out.println("0 : Выход");
     }
 }
